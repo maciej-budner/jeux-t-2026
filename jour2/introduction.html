@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Jeux été 2026</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            width: 100vw;
+            /* Effet bureau sombre avec lumière de bougie centrée */
+            background: radial-gradient(ellipse 60% 60% at 50% 40%, #f5e7c6 0%, #e2cfa1 40%, #3a2c1a 100%);
+            color: #2d2d2d;
+            font-family: 'Georgia', 'Times New Roman', Times, serif;
+            font-size: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: background 0.3s;
+        }
+        .book-container {
+            background: rgba(245, 231, 198, 0.92);
+            box-shadow: 0 8px 32px 8px rgba(60, 50, 30, 0.25), 0 1.5px 0 #e9e4dc;
+            border-radius: 16px;
+            width: 65vw;
+            max-width: 900px;
+            min-width: 320px;
+            min-height: 100vh;
+            margin: 3rem 0 2rem 0;
+            padding: 2.5rem 2.5rem 2rem 2.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* Légère ombre intérieure pour effet "page éclairée" */
+            box-shadow: 0 8px 32px 8px rgba(60, 50, 30, 0.25), 0 1.5px 0 #e9e4dc, inset 0 0 60px 10px #f5e7c6;
+        }
+        header {
+            width: 100%;
+            background: transparent;
+            padding: 2rem 0 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-family: 'Georgia', 'Times New Roman', Times, serif;
+            letter-spacing: 2px;
+            color: #3a2c1a;
+            text-shadow: 0 1px 0 #e9e4dc;
+        }
+        main {
+            width: 100%;
+            text-align: center;
+        }
+        @media (max-width: 900px) {
+            .book-container {
+                width: 90vw;
+                padding: 1.2rem 0.5rem;
+            }
+        }
+        @media (max-width: 600px) {
+            body {
+                font-size: 1.1rem;
+            }
+            header h1 {
+                font-size: 1.5rem;
+            }
+            .book-container {
+                width: 98vw;
+                padding: 0.5rem 0.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="book-container">
+        <header>
+            <h1>J2</h1>
+        </header>
+        <main>
+            Vous vous réveillez en sursaut<br>
+            Vous vous retrouvez chez vous. Dans la même petite maison, avec le même lit et la même armoire.<br>
+            C'était bien un rêve? vous regardez votre ventre et rien, aucune blessure<br>
+            évidemment que ça l'était, malgré qu'il soit super réaliste<br>
+            Vous décidez de partir chasser pour vous changer les idées.<br>
+            Vous ouvrez votre placard et votre arc a disparu. Il ne reste plus que votre épée.<br>
+            Vous n'êtes pas frustré, vous avez l'habitude que les villageois vous mal mènent.<br>
+            Vous prenez votre épée et vous sortez. Comme d'habitude, les villageois vous jugent du regard puis retournent à leurs activités.<br> 
+            Mais vous avez un sentiment étrange, vous savez pourquoi vous avez une sorte de déjà vu mais là c'est différent.<br>
+            Pour avoir le cœur net, vous prenez le même chemin que dans votre rêve.<br>
+            Lors du chemin, quand vous combattez les slimes, bizarrement vous avez les mêmes aptitudes que dans votre rêve.<br>
+            Et vous avez l'impression de progresser. Vous décidez de combattre un goblin perdu pour voir si c'est que une impression.<br>
+            Généralement, vous vous débrouillez contre ces monstres mais vous sortez toujours blessé après le combat.<br>
+            Mais ici, vous esquivez les coups du monstre très facilement.<br>
+            Vous parez un coup avec votre épée, vous le tuez en lui cassant son arme et vous le tranchez en deux.<br>
+            Vous êtes surpris par votre propre puissance.<br>
+            Vous continuez votre chemin, plus vous avancez plus une terrible peur vous prend.<br>
+            Et si c'était pas un rêve? Et si vous êtes vraiment béni?<br>
+            Au moment où les doutes vous envahissent, vous voyez au loin la même jeune femme que dans votre rêve. Cette fois-ci, elle n'est pas paniquée comme dans votre fameux rêve. Elle regarde autour d'elle comme si elle cherchait quelqu'un.<br>
+            La peur vous envahit, vous prenez les jambes à votre coup et retournez à votre village.<br>
+            Ce n'est pas un rêve c'est certain maintenant.
+            Alors vous êtes vraiment le héros? et ce rêve était une prophétie?<br>
+            Malgré la peur, vous avez un grand sourire, tout n'est pas perdu pour vous sortir de la prophétie.<br>
+            Il vous suffit, d'écouter les prophéties et de les reconnaître entre rêve et réalité.<br>
+            Vous vous pincez la joue et vous avez mal. Donc c'est la réalité.<br>
+            avec toutes vos économies vous reprenez des provisions.<br>
+            Où voulez partir?<br>
+            <p><a href="battle.html">Partir à la recherche de la jeune femme</a></p>
+            <p><a href="autreChemin.html">allez à l'opposé</a></p>
+        </main>
+    </div>
+</body>
+</html>
