@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Jeux été 2026</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            width: 100vw;
+            /* Effet bureau sombre avec lumière de bougie centrée */
+            background: radial-gradient(ellipse 60% 60% at 50% 40%, #f5e7c6 0%, #e2cfa1 40%, #3a2c1a 100%);
+            color: #2d2d2d;
+            font-family: 'Georgia', 'Times New Roman', Times, serif;
+            font-size: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: background 0.3s;
+        }
+        .book-container {
+            background: rgba(245, 231, 198, 0.92);
+            box-shadow: 0 8px 32px 8px rgba(60, 50, 30, 0.25), 0 1.5px 0 #e9e4dc;
+            border-radius: 16px;
+            width: 65vw;
+            max-width: 900px;
+            min-width: 320px;
+            min-height: 100vh;
+            margin: 3rem 0 2rem 0;
+            padding: 2.5rem 2.5rem 2rem 2.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* Légère ombre intérieure pour effet "page éclairée" */
+            box-shadow: 0 8px 32px 8px rgba(60, 50, 30, 0.25), 0 1.5px 0 #e9e4dc, inset 0 0 60px 10px #f5e7c6;
+        }
+        header {
+            width: 100%;
+            background: transparent;
+            padding: 2rem 0 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-family: 'Georgia', 'Times New Roman', Times, serif;
+            letter-spacing: 2px;
+            color: #3a2c1a;
+            text-shadow: 0 1px 0 #e9e4dc;
+        }
+        main {
+            width: 100%;
+            text-align: center;
+        }
+        @media (max-width: 900px) {
+            .book-container {
+                width: 90vw;
+                padding: 1.2rem 0.5rem;
+            }
+        }
+        @media (max-width: 600px) {
+            body {
+                font-size: 1.1rem;
+            }
+            header h1 {
+                font-size: 1.5rem;
+            }
+            .book-container {
+                width: 98vw;
+                padding: 0.5rem 0.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="book-container">
+        <header>
+            <h1>Jour3</h1>
+        </header>
+        <main>
+            Vous vous reveilez encore dans votre lit mais en reprenant un gros souffle comme si on vous rementier audessus de l'eau.<br>
+            Vous êtes encore a votre vilage, chez vous.<br>
+            Vous commencer a comprendre. A chaque foix que vous mourez vous retournez ici.<br>
+            La fameuse benidiction qui vous a été donnée, n'est pas que sur vos capaciter physiques mais aussi l'inposibilité de mourir.<br>
+            Tout les souvenirs sont rester, comme votre progressions a l'épée.<br>
+            C'est pour ça que se sentiment lors des combat été si étrange.<br>
+            Vous vous faite une respropective des chemin que vous pouvez prendre.<br>
+            Et de comment evité de vous faire eliminer par les personne que vous croiser.<br>
+            Quelle statéger aborder lors de votre rencontre et comment accomplire votre mission en même temps.<br>
+            Vous réfléchissez pendant un très long moment.<br>
+            Et vous vous désidez enfin.<br>
+            <p><a href="jeuneFemme/cheminChevalier.html">prendre le chemin où il y a la jeune femme</a></p>
+            <p><a href="emilie/cheminEmilie.html">prendre le chemin où il y a Emilie</a></p>
+        </main>
+    </div>
+</body>
+</html>
