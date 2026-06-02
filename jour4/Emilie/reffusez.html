@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Jeux été 2026</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            width: 100vw;
+            /* Effet bureau sombre avec lumière de bougie centrée */
+            background: radial-gradient(ellipse 60% 60% at 50% 40%, #f5e7c6 0%, #e2cfa1 40%, #3a2c1a 100%);
+            color: #2d2d2d;
+            font-family: 'Georgia', 'Times New Roman', Times, serif;
+            font-size: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: background 0.3s;
+        }
+        .book-container {
+            background: rgba(245, 231, 198, 0.92);
+            box-shadow: 0 8px 32px 8px rgba(60, 50, 30, 0.25), 0 1.5px 0 #e9e4dc;
+            border-radius: 16px;
+            width: 65vw;
+            max-width: 900px;
+            min-width: 320px;
+            min-height: 100vh;
+            margin: 3rem 0 2rem 0;
+            padding: 2.5rem 2.5rem 2rem 2.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* Légère ombre intérieure pour effet "page éclairée" */
+            box-shadow: 0 8px 32px 8px rgba(60, 50, 30, 0.25), 0 1.5px 0 #e9e4dc, inset 0 0 60px 10px #f5e7c6;
+        }
+        header {
+            width: 100%;
+            background: transparent;
+            padding: 2rem 0 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-family: 'Georgia', 'Times New Roman', Times, serif;
+            letter-spacing: 2px;
+            color: #3a2c1a;
+            text-shadow: 0 1px 0 #e9e4dc;
+        }
+        main {
+            width: 100%;
+            text-align: center;
+        }
+        @media (max-width: 900px) {
+            .book-container {
+                width: 90vw;
+                padding: 1.2rem 0.5rem;
+            }
+        }
+        @media (max-width: 600px) {
+            body {
+                font-size: 1.1rem;
+            }
+            header h1 {
+                font-size: 1.5rem;
+            }
+            .book-container {
+                width: 98vw;
+                padding: 0.5rem 0.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="book-container">
+        
+        <main>
+            Vous refusez et vu que vous ne pouvez plus mentir, vous lui montrez juste les peaux de loup et elle comprend et vous laisse partir.<br>
+            Vous reprenez le chemin, vous n'avez plus besoin d'aller au village car vous avez de la viande de loup mais vous ne comprenez pas pourquoi le marchant de ce village refuse de vous acheter vos marchandises alors que la première fois oui.<br>
+            Vous continuez à vous entraîner sur vos tactiques et comme prévu, les plus gros monstres c'est plus complexe.<br>
+            Mais vous persévérez malgré tout et vous apprenez petit à petit.<br>
+            Vous apercevez le village, cette fois-ci vous sortez avec que quelques égratignures.<br>
+            Vous continuez votre chemin.<br>
+            les monstres qui vous attaquent n'ont plus aucune chance, vous arrivez à prévoir 2 coups d'avance peu importe le monstre.<br>
+            Quelques jours passent et vous devez jeter le reste de viande de loup qui vous reste mais vous avez encore vos provisions achetées à votre village.<br>
+            Au loin vous apercevez une église, vous vous rappelez d'Emilie.
+            <p><a href="entrainement.html">continuer votre chemin</a></p>
+            <p><a href="eglise.html">aller espionner l'église</a></p>
+        </main>
+    </div>
+</body>
+</html>
