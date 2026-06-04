@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Jeux été 2026</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            width: 100vw;
+            /* Effet bureau sombre avec lumière de bougie centrée */
+            background: radial-gradient(ellipse 60% 60% at 50% 40%, #f5e7c6 0%, #e2cfa1 40%, #3a2c1a 100%);
+            color: #2d2d2d;
+            font-family: 'Georgia', 'Times New Roman', Times, serif;
+            font-size: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: background 0.3s;
+        }
+        .book-container {
+            background: rgba(245, 231, 198, 0.92);
+            box-shadow: 0 8px 32px 8px rgba(60, 50, 30, 0.25), 0 1.5px 0 #e9e4dc;
+            border-radius: 16px;
+            width: 65vw;
+            max-width: 900px;
+            min-width: 320px;
+            min-height: 100vh;
+            margin: 3rem 0 2rem 0;
+            padding: 2.5rem 2.5rem 2rem 2.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* Légère ombre intérieure pour effet "page éclairée" */
+            box-shadow: 0 8px 32px 8px rgba(60, 50, 30, 0.25), 0 1.5px 0 #e9e4dc, inset 0 0 60px 10px #f5e7c6;
+        }
+        header {
+            width: 100%;
+            background: transparent;
+            padding: 2rem 0 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-family: 'Georgia', 'Times New Roman', Times, serif;
+            letter-spacing: 2px;
+            color: #3a2c1a;
+            text-shadow: 0 1px 0 #e9e4dc;
+        }
+        main {
+            width: 100%;
+            text-align: center;
+        }
+        @media (max-width: 900px) {
+            .book-container {
+                width: 90vw;
+                padding: 1.2rem 0.5rem;
+            }
+        }
+        @media (max-width: 600px) {
+            body {
+                font-size: 1.1rem;
+            }
+            header h1 {
+                font-size: 1.5rem;
+            }
+            .book-container {
+                width: 98vw;
+                padding: 0.5rem 0.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="book-container">
+       
+        <main>
+            Vous cédez à votre folie.<br>
+            Vous regardez les villageois et avant qu'ils ne se rendent compte vous leur foncez dessus.<br>
+            Ils ont à peine le temps de comprendre que vous êtes déjà devant eux et les tuez un par un.<br>
+            Vous regardez leur sang couler et leur lueur s'éteindre.<br>
+            Ça vous emplit de joie.<br>
+            "HAHAHAHAHAHA"<br>
+            Vous commencez à tuer tous les villageois et brûlez les maisons de ceux qui se sont enfermés chez eux. Tout en riant à pleins poumons.<br>
+            Vous vous sentez bien dans cette folie.<br>
+            Vous vous sentez libre.<br>
+            Vous vous sentez puissant.<br>
+            Vous vous sentez... vivant.<br>
+            Vous contemplez votre œuvre d'art et vous vous sentez fier de vous.<br>
+            <img src="miseAsang.png" alt="village en feux et villageois mourant" ><br>
+            Vous vous rappelez qu'il y a un autre village qui vous a traité comme un moins que rien.<br>
+            Vous prenez la route pour la détruire.<br>
+            Sur le chemin aucun monstre ne vous approche sauf les plus déterminés qui meurent sous vos coups agiles et précis.<br>
+            Vous voyez des loups prendre la fuite.<br>
+            Vous tombez sur Emilie mourante, complètement machouillée de partout, ses yeux complètement achés par ses pleurs, du sang partout.<br>
+            Vous entendez à peine ce qu'elle dit.<br>
+            "Je veux pas mourir"<br>
+            <p><a href="passer.html">passer votre route</a></p>
+            <p><a href="sauver.html">sauver Emilie</a></p>
+            <p><a href="achevez.html">Achevez Emilie</a></p>
+        </main>
+    </div>
+</body>
+</html>
