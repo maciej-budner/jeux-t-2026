@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Jeux été 2026</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            width: 100vw;
+            /* Effet bureau sombre avec lumière de bougie centrée */
+            background: radial-gradient(ellipse 60% 60% at 50% 40%, #f5e7c6 0%, #e2cfa1 40%, #3a2c1a 100%);
+            color: #2d2d2d;
+            font-family: 'Georgia', 'Times New Roman', Times, serif;
+            font-size: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: background 0.3s;
+        }
+        .book-container {
+            background: rgba(245, 231, 198, 0.92);
+            box-shadow: 0 8px 32px 8px rgba(60, 50, 30, 0.25), 0 1.5px 0 #e9e4dc;
+            border-radius: 16px;
+            width: 65vw;
+            max-width: 900px;
+            min-width: 320px;
+            min-height: 100vh;
+            margin: 3rem 0 2rem 0;
+            padding: 2.5rem 2.5rem 2rem 2.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* Légère ombre intérieure pour effet "page éclairée" */
+            box-shadow: 0 8px 32px 8px rgba(60, 50, 30, 0.25), 0 1.5px 0 #e9e4dc, inset 0 0 60px 10px #f5e7c6;
+        }
+        header {
+            width: 100%;
+            background: transparent;
+            padding: 2rem 0 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-family: 'Georgia', 'Times New Roman', Times, serif;
+            letter-spacing: 2px;
+            color: #3a2c1a;
+            text-shadow: 0 1px 0 #e9e4dc;
+        }
+        main {
+            width: 100%;
+            text-align: center;
+        }
+        @media (max-width: 900px) {
+            .book-container {
+                width: 90vw;
+                padding: 1.2rem 0.5rem;
+            }
+        }
+        @media (max-width: 600px) {
+            body {
+                font-size: 1.1rem;
+            }
+            header h1 {
+                font-size: 1.5rem;
+            }
+            .book-container {
+                width: 98vw;
+                padding: 0.5rem 0.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="book-container">
+       
+        <main>
+            Vous rappelez que si vous partez maintenant, vous ne reverrez jamais Emilie.<br>
+            Vous décidez d'aller la sauver, vous vous précipitez.<br>
+            En même temps, vous essayez de vous rappeler de ce que Silvie vous a conseillé quand vous combattez les monstres sur le chemin.<br>
+            Votre progression est fulgurante, aucun monstre n'a une chance contre vous.<br>
+            Vous arrivez proche des lieux où Emilie se faisait attaquer mais aucun cri de sa part cette fois-ci.<br>
+            Vous continuez votre route et vous voyez Emilie au loin, elle marche tranquillement.<br>
+            Vous trouvez ça étrange, vous comprenez pas pourquoi elle n'a pas crié et où sont les loups.<br>
+            Au même moment, un loup vous saute dessus.<br>
+            Vous arrivez à l'esquiver et le frappez d'un coup puissant qui le ramène au sol.<br>
+            Malgré ça, il a réussi à vous griffer le bras.<br>
+            Vous restez concentré, vous savez qu'il y a plus de loups et ça vous apprendra à appliquer les conseils de Silvie.<br>
+            Vous entendez des bruits de pas, vous savez que c'est Emilie qui vient vers vous. Vous restez tout de même sur vos gardes.<br>
+            Une fois qu'elle est proche de vous, elle vous dit avec confiance.<br>
+            "Je vais vous aider, je suis une prêtresse après tout."<br>
+            Vous restez concentré, vous commencez à voir les loups et ils vous encerclent.<br>
+            Vous savez qu'aucune hésitation n'est permise, alors vous attaquez en premier.<br>
+            Votre initiative provoque une surprise chez les loups, ils ne s'attendaient pas à ce que vous attaquiez si tôt.<br>
+            Vous attaquez le loup le plus proche et il n'a pas le temps de réagir que vous le tuez en lui tranchant la tête.<br>
+            un autre loup se jette sur vous mais vous profitez qu'il ne puisse plus esquiver pour faire une attaque rotative qui coupe le loup en deux.<br>
+            Soudain vous entendez un loup hurler et tous les autres loups fuient.<br>
+            Vous vous tournez vers le hurlement et vous voyez que c'est l'alpha qui était plus loin en train d'observer.<br>
+            Vous vous tournez vers Emilie et vous voyez qu'elle est déjà en train de vous soigner et vous pose des questions.<br>
+            "Ça va? Vous êtes super fort! Vous êtes qui?"<br>
+            Vous saviez qu'elle allait vous poser des questions mais cette fois-ci, vous savez comment contrer son sort.<br>
+            "Restons pas ici, les loups sont encore aux alentours. Rentrons dans mon village"<br>
+            Emilie acquiesce, finit de vous soigner et vous partez.<br>
+            Vous arrivez à votre village, vous savez pas si l'effet d'Emilie fonctionne encore mais elle est hors de danger.<br>
+            Que faites-vous?<br>
+            <p><a href="partir.html">Pas perdre de temps</a></p>
+            <p><a href="restez.html">Discuter avec Emilie</a></p>
+        </main>
+    </div>
+</body>
+</html>
